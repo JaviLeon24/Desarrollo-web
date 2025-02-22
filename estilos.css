@@ -1,0 +1,101 @@
+.tarjeta {
+    width: 400px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom right, #ddfffd, white);
+}
+
+.foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.nombre {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.redes-sociales {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.redes-sociales li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redes-sociales a:hover {
+    opacity: 0.7;
+}
+
+.social-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.linkedin:hover {
+    background-color: #005582;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 119, 181, 0.5);
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.twitter:hover {
+    background-color: #0d8fd2;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(29, 161, 242, 0.5);
+}
+
+.github {
+    background-color: #333;
+}
+
+.github:hover {
+    background-color: #444;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(51, 51, 51, 0.5);
+}
