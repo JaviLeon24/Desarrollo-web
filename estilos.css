@@ -99,3 +99,22 @@
     transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(51, 51, 51, 0.5);
 }
+
+.btn-actualizar {
+    background-color: #ffae00; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+.btn-actualizar:hover {
+    background-color: #8f7500;
+    transform: scale(1.05);
+}
