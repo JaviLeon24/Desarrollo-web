@@ -7,6 +7,8 @@
     padding: 20px;
     text-align: center;
     background: linear-gradient(to bottom right, #ddfffd, white);
+    transition: all 0.3s ease;
+    border-radius: 10px;
 }
 
 .foto-perfil {
@@ -17,12 +19,14 @@
 }
 
 .nombre {
-    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
     color: #333;
     text-align: center;
 }
 
 .titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: #666;
     text-align: center;
@@ -30,6 +34,7 @@
 }
 
 .descripcion {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     color: #444;
     text-align: center;
@@ -105,9 +110,9 @@
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     display: block;
@@ -117,4 +122,53 @@
 .btn-actualizar:hover {
     background-color: #8f7500;
     transform: scale(1.05);
+}
+
+.btn-tema {
+    background-color: #b42727; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+.btn-tema:hover {
+    background-color: #8f0000;
+    transform: scale(1.05);
+}
+
+.dark-mode {
+    background: linear-gradient(to bottom right, #444444, #b6b6b6);
+    color: white;
+    border: 1px solid #444;
+}
+
+.dark-mode .nombre,
+.dark-mode .titulo,
+.dark-mode .descripcion {
+    color: white;
+}
+
+.dark-mode .btn-actualizar {
+    background-color: #ffae00;
+    color: black;
+}
+
+.dark-mode .btn-actualizar:hover {
+    background-color: #8f7500;
+}
+
+.dark-mode .btn-tema {
+    background-color: #b42727;
+    color: white;
+}
+
+.dark-mode .btn-tema:hover {
+    background-color: #912121;
 }
